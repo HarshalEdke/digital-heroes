@@ -1,0 +1,59 @@
+
+> digital-heroes@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.161.141.167:3000
+- Environments: .env.local
+✓ Ready in 523ms
+✓ Running next.config.ts took 32ms
+
+⚠️  Node.js 20 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 22 or later. For more information, visit: https://github.com/orgs/supabase/discussions/45715
+⚠️  Node.js 20 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 22 or later. For more information, visit: https://github.com/orgs/supabase/discussions/45715
+ GET /signup 200 in 802ms (next.js: 215ms, proxy.ts: 226ms, application-code: 361ms)
+ GET /signup 200 in 803ms (next.js: 238ms, proxy.ts: 223ms, application-code: 342ms)
+ GET /signup 200 in 41ms (next.js: 4ms, proxy.ts: 5ms, application-code: 32ms)
+ GET /signup 200 in 47ms (next.js: 5ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /login 200 in 50ms (next.js: 24ms, proxy.ts: 6ms, application-code: 20ms)
+ GET /forgot-password 200 in 62ms (next.js: 30ms, proxy.ts: 5ms, application-code: 27ms)
+ GET /login 200 in 30ms (next.js: 9ms, proxy.ts: 5ms, application-code: 17ms)
+⚠️  Node.js 20 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 22 or later. For more information, visit: https://github.com/orgs/supabase/discussions/45715
+ GET /dashboard 200 in 2.2s (next.js: 4ms, proxy.ts: 611ms, application-code: 1614ms)
+ GET /dashboard 200 in 4.0s (next.js: 414ms, proxy.ts: 1108ms, application-code: 2.4s)
+ GET /scores 200 in 2.2s (next.js: 430ms, proxy.ts: 592ms, application-code: 1221ms)
+ GET /charity 200 in 2.1s (next.js: 220ms, proxy.ts: 561ms, application-code: 1323ms)
+ GET /subscription 200 in 2.5s (next.js: 469ms, proxy.ts: 756ms, application-code: 1278ms)
+ GET /draw 200 in 2.6s (next.js: 23ms, proxy.ts: 721ms, application-code: 1830ms)
+ GET /winnings 200 in 2.4s (next.js: 239ms, proxy.ts: 432ms, application-code: 1779ms)
+ GET /settings 404 in 359ms (next.js: 24ms, proxy.ts: 314ms, application-code: 21ms)
+ GET /settings 404 in 722ms (next.js: 6ms, proxy.ts: 666ms, application-code: 50ms)
+ GET / 200 in 817ms (next.js: 38ms, proxy.ts: 401ms, application-code: 377ms)
+ GET /dashboard 307 in 611ms (proxy.ts: 607ms)
+ GET /dashboard 200 in 2.3s (next.js: 4ms, proxy.ts: 1016ms, application-code: 1248ms)
+ GET /scores 200 in 3.1s (next.js: 4ms, proxy.ts: 1699ms, application-code: 1423ms)
+ POST /scores 200 in 2.7s (next.js: 3ms, proxy.ts: 373ms, application-code: 2.3s)
+  └─ ƒ addScore({"score":35,"score_date":"2026-09-22"}) in 1480ms lib/actions/scores.ts
+ GET /scores 200 in 1020ms (next.js: 3ms, proxy.ts: 247ms, application-code: 770ms)
+ GET /winnings 200 in 1451ms (next.js: 3ms, proxy.ts: 386ms, application-code: 1061ms)
+ GET /draw 200 in 1759ms (next.js: 3ms, proxy.ts: 959ms, application-code: 797ms)
+ GET /subscription 200 in 1417ms (next.js: 3ms, proxy.ts: 468ms, application-code: 946ms)
+ POST /subscription 200 in 959ms (next.js: 4ms, proxy.ts: 253ms, application-code: 703ms)
+  └─ ƒ startSubscription("monthly") in 698ms lib/actions/subscription.ts
+ GET /winnings 200 in 1348ms (next.js: 3ms, proxy.ts: 521ms, application-code: 823ms)
+ GET /dashboard 200 in 1187ms (next.js: 3ms, proxy.ts: 273ms, application-code: 911ms)
+ GET /charity 200 in 1285ms (next.js: 3ms, proxy.ts: 364ms, application-code: 918ms)
+ POST /charity 200 in 3.2s (next.js: 3ms, proxy.ts: 616ms, application-code: 2.6s)
+  └─ ƒ selectCharity({"charity_id":"67387e96-7fda-4e80-a1f6-6a3f060594bc","charity_percentage":10}) in 1316ms lib/actions/charity.ts
+ GET /charity 200 in 2.1s (next.js: 3ms, proxy.ts: 689ms, application-code: 1434ms)
+ GET /dashboard 200 in 1498ms (next.js: 3ms, proxy.ts: 362ms, application-code: 1133ms)
+ GET /draw 200 in 1524ms (next.js: 4ms, proxy.ts: 622ms, application-code: 899ms)
+ GET /dashboard 200 in 2.0s (next.js: 4ms, proxy.ts: 591ms, application-code: 1451ms)
+ GET /scores 200 in 1235ms (next.js: 3ms, proxy.ts: 307ms, application-code: 926ms)
+ POST /scores 200 in 1275ms (next.js: 3ms, proxy.ts: 661ms, application-code: 611ms)
+  └─ ƒ addScore({"score":43,"score_date":"2026-09-22"}) in 605ms lib/actions/scores.ts
+ GET /dashboard 200 in 2.0s (next.js: 3ms, proxy.ts: 478ms, application-code: 1543ms)
+ GET /winnings 200 in 1321ms (next.js: 3ms, proxy.ts: 403ms, application-code: 915ms)
+ GET /dashboard 200 in 1694ms (next.js: 4ms, proxy.ts: 297ms, application-code: 1394ms)
+ GET /dashboard 200 in 1499ms (next.js: 3ms, proxy.ts: 352ms, application-code: 1143ms)
+ GET /dashboard 200 in 1095ms (next.js: 3ms, proxy.ts: 243ms, application-code: 850ms)

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Brand palette: fairway greens + deep course greens for a premium,
+   golf-appropriate look. Accent tones come from Tailwind defaults. */
+@theme {
+  --color-brand-50: #effaf3;
+  --color-brand-100: #d7f2e2;
+  --color-brand-200: #b0e4c8;
+  --color-brand-300: #7ccfa7;
+  --color-brand-400: #47b482;
+  --color-brand-500: #249867;
+  --color-brand-600: #167b53;
+  --color-brand-700: #136244;
+  --color-brand-800: #124f38;
+  --color-brand-900: #10412f;
+
+  --color-ink-50: #f6f7f6;
+  --color-ink-100: #e9ecea;
+  --color-ink-200: #d1d8d4;
+  --color-ink-300: #a9b4ae;
+  --color-ink-400: #7e8c85;
+  --color-ink-500: #617068;
+  --color-ink-600: #4b5952;
+  --color-ink-700: #3d4842;
+  --color-ink-800: #2f3833;
+  --color-ink-900: #1d2621;
+  --color-ink-950: #121815;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-white font-sans text-ink-900 antialiased;
+  letter-spacing: 0;
+}
+
+/* Consistent, visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+}

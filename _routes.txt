@@ -1,0 +1,5 @@
+/ -> 200
+/login -> 200
+/signup -> 200
+/forgot-password -> 200
+/charities -> 200
